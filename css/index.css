@@ -185,11 +185,12 @@ header nav a {
     font-size: 85%;
     color: rebeccapurple;
     margin: 5%;
-    width: 100%;
+    width: 100vw;
   }
 }
 .intro {
   display: flex;
+  flex-direction: column;
   align-content: center;
 }
 .intro h2 {
@@ -206,11 +207,12 @@ header nav a {
     font-size: 75%;
     color: rebeccapurple;
     margin: 5%;
-    width: 100%;
+    width: 100vw;
   }
 }
 .experience {
   display: flex;
+  flex-direction: column;
   align-content: center;
 }
 .experience h2 {
@@ -227,11 +229,12 @@ header nav a {
     font-size: 75%;
     color: rebeccapurple;
     margin: 5%;
-    width: 100%;
+    width: 100vw;
   }
 }
 .skills {
   display: flex;
+  flex-direction: column;
   align-content: center;
 }
 .skills h2 {
@@ -243,16 +246,17 @@ header nav a {
   font-family: 'Space Mono', monospace;
   font-size: 55%;
 }
-@media (max-width) {
+@media (max-width: 500px) {
   .skills ul li {
     font-size: 75%;
     color: #7659B6;
     margin: 7%;
-    width: 100%;
+    width: 100vw;
   }
 }
 .education {
   display: flex;
+  flex-direction: column;
   align-content: center;
 }
 .education h2 {
@@ -269,11 +273,12 @@ header nav a {
     font-size: 75%;
     color: rebeccapurple;
     margin: 5%;
-    width: 100%;
+    width: 100vw;
   }
 }
 .referrals {
   display: flex;
+  flex-direction: column;
   align-content: center;
 }
 .referrals h2 {
@@ -290,11 +295,12 @@ header nav a {
     font-size: 75%;
     color: rebeccapurple;
     margin: 5%;
-    width: 100%;
+    width: 100vw;
   }
 }
 .contact {
   display: flex;
+  flex-direction: column;
   align-content: center;
 }
 .contact h2 {
@@ -306,11 +312,11 @@ header nav a {
   font-family: 'Space Mono', monospace;
   font-size: 55%;
 }
-@media (max-width) {
+@media (max-width: 500px) {
   .contact ul li {
     font-size: 75%;
     color: #7659B6;
     margin: 7%;
-    width: 100%;
+    width: 100vw;
   }
 }

@@ -129,13 +129,14 @@ header{
 			font-size: 85%;
 			color: rebeccapurple;
 			margin:5%;
-			width:100%;
+			width:100vw;
 		}//media close
 
 		}//nav close
 }//header close
 .intro{
 	display:flex;
+	flex-direction: column;
 	align-content: center;
 	h2{
 		color: @h2color;
@@ -148,13 +149,14 @@ header{
 		font-size: 75%;
 		color: rebeccapurple;
 		margin:5%;
-		width:100%;
+		width:100vw;
 		
 	}//media close
 }//intro close
 
 .experience{
 	display:flex;
+	flex-direction:column;
 	align-content: center;
 	h2{
 		color: @h2color;
@@ -168,11 +170,12 @@ header{
 		font-size: 75%;
 			color: rebeccapurple;
 			margin:5%;
-			width:100%;
+			width:100vw;
 	}//media close
 }//experience close
 .skills{
 	display:flex;
+	flex-direction: column;
 	align-content: center;
 	h2{
 		color:@h2color;
@@ -181,11 +184,11 @@ header{
 	ul{
 		li{
 			.lists();
-			@media (max-width){
+			@media (max-width:500px){
 				font-size: 75%;
 				color: #7659B6;
 				margin:7%;
-				width:100%;
+				width:100vw;
 			}//media close
 		}//li close
 	}//ul close
@@ -193,6 +196,7 @@ header{
 }//skills close
 .education{
 	display:flex;
+	flex-direction:column;
 	align-content: center;
 	h2{
 		color:@h2color;
@@ -205,11 +209,12 @@ header{
 		font-size: 75%;
 			color: rebeccapurple;
 			margin:5%;
-			width:100%;
+			width:100vw;
 		}//media close
 }//education close
 .referrals{
 	display: flex;
+	flex-direction: column;
 	align-content:center;
 	h2{
 		color:@h2color;
@@ -222,11 +227,12 @@ header{
 		font-size: 75%;
 		color: rebeccapurple;
 		margin:5%;
-		width:100%;
+		width:100vw;
 	}//media close
 }//referrals close
 .contact{
 	display:flex;
+	flex-direction: column;
 	align-content:center;
 	h2{
 		color:@h2color;
@@ -235,11 +241,11 @@ header{
 	ul{
 		li{
 			.lists();
-			@media (max-width){
+			@media (max-width:500px){
 				font-size: 75%;
 				color: #7659B6;
 				margin:7%;
-				width:100%;
+				width:100vw;
 		}//media close
 		}//li close
 	}//ul close
