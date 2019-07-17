@@ -135,8 +135,14 @@ body {
   height: 100%;
 }
 .new-class {
-  color: #7FFFD4;
-  font-size: 28%;
+  color: #00552A;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 50%;
+}
+.lists {
+  color: #336E7B;
+  font-family: 'Space Mono', monospace;
+  font-size: 55%;
 }
 .other-class {
   display: flex;
@@ -145,27 +151,182 @@ body {
   align-content: center;
 }
 body {
-  background-color: red;
+  background-color: #66CCFF;
 }
 h1 {
-  font-size: 14%;
-  color: #C8f7c5;
+  font-size: 150px;
+  font-family: 'Cousine', monospace;
+  color: #007A4B;
+  height: 25%;
+}
+hr {
+  overflow: visible;
+  height: 30px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: black;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
 }
 header {
-  color: #7FFFD4;
-  font-size: 28%;
-}
-nav {
-  color: #7FFFD4;
-  font-size: 28%;
   display: flex;
   flex-direction: column;
+  margin: 2%;
+}
+header nav {
+  justify-content: baseline;
+  margin: 22%;
+  margin-top: 5%;
+}
+header nav a {
+  text-decoration: none;
+  color: #20603C;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 60px;
   justify-content: center;
+  flex-wrap: wrap;
   align-content: center;
 }
-body {
-  font-size: 56%;
+@media (max-width: 500px) {
+  header nav {
+    font-size: 85%;
+    color: rebeccapurple;
+    margin: 5%;
+    width: 100%;
+  }
 }
-body h1 {
-  color: #BAF73C;
+header .intro {
+  display: flex;
+  align-content: center;
+}
+header .intro h2 {
+  color: #20603C;
+  font-family: 'IBM Plex Mono', monospace;
+}
+header .intro p {
+  color: #00552A;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 50%;
+}
+@media (max-width: 500px) {
+  header .intro {
+    font-size: 75%;
+    color: rebeccapurple;
+    margin: 5%;
+    width: 100%;
+  }
+}
+header .experience {
+  display: flex;
+  align-content: center;
+}
+header .experience h2 {
+  color: #20603C;
+  font-family: 'IBM Plex Mono', monospace;
+}
+header .experience p {
+  color: #00552A;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 50%;
+}
+@media (max-width: 500px) {
+  header .experience {
+    font-size: 75%;
+    color: rebeccapurple;
+    margin: 5%;
+    width: 100%;
+  }
+}
+header .skills {
+  display: flex;
+  align-content: center;
+}
+header .skills h2 {
+  color: #20603C;
+  font-family: 'IBM Plex Mono', monospace;
+}
+header .skills ul li {
+  color: #336E7B;
+  font-family: 'Space Mono', monospace;
+  font-size: 55%;
+}
+@media (max-width) {
+  header .skills ul li {
+    font-size: 75%;
+    color: #7659B6;
+    margin: 7%;
+    width: 100%;
+  }
+}
+header .education {
+  display: flex;
+  align-content: center;
+}
+header .education h2 {
+  color: #20603C;
+  font-family: 'IBM Plex Mono', monospace;
+}
+header .education p {
+  color: #00552A;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 50%;
+}
+@media (max-width: 500px) {
+  header .education {
+    font-size: 75%;
+    color: rebeccapurple;
+    margin: 5%;
+    width: 100%;
+  }
+}
+header .referrals {
+  display: flex;
+  align-content: center;
+}
+header .referrals h2 {
+  color: #20603C;
+  font-family: 'IBM Plex Mono', monospace;
+}
+header .referrals p {
+  color: #00552A;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 50%;
+}
+@media (max-width: 500px) {
+  header .referrals {
+    font-size: 75%;
+    color: rebeccapurple;
+    margin: 5%;
+    width: 100%;
+  }
+}
+header .contact {
+  display: flex;
+  align-content: center;
+}
+header .contact h2 {
+  color: #20603C;
+  font-family: 'IBM Plex Mono', monospace;
+}
+header .contact ul li {
+  color: #336E7B;
+  font-family: 'Space Mono', monospace;
+  font-size: 55%;
+}
+@media (max-width) {
+  header .contact ul li {
+    font-size: 75%;
+    color: #7659B6;
+    margin: 7%;
+    width: 100%;
+  }
 }
