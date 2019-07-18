@@ -334,6 +334,9 @@ a {
   text-decoration: none;
   color: #fab1a0;
 }
+a:hover {
+  color: #fbc1b3;
+}
 h3 {
   font-size: 1.75rem;
   color: #b2bec3;
