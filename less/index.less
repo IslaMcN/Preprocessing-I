@@ -32,9 +32,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -66,12 +65,13 @@ html, body {
 .new-class(){
 	color: #00552A;
 	font-family: 'Nanum Gothic Coding', monospace;
-	font-size: 50%;
+	font-size: 1.5rem;
  } //newclassclose
 .lists(){
 	color: #336E7B;
 	font-family: 'Space Mono', monospace;
-	font-size: 55%;
+	font-size: 1.5rem;
+  	list-style-position: inside;
 }//lists close
 .other-class(){
 	display:flex;
@@ -82,12 +82,17 @@ html, body {
 
 body{
 	background-color: @maincolor;
+	margin:9%;
+	padding:7%;
 }//body close
 h1{
-	font-size:150px;
+	font-size:200%;
 	font-family: @mainfont;
 	color: @h1color;
 	height:25%;
+	display: flex;
+	justify-content: center;
+
 }//h1 close
 hr  {
     overflow: visible; 
@@ -96,6 +101,7 @@ hr  {
     border-color: black;
     border-width: 1px 0 0 0;
 	border-radius: 20px;
+	width:20%;
 }//hr close
 hr:before { 
 	display: block;
@@ -119,10 +125,11 @@ header{
 			text-decoration: none;
 			color: @h2color;
 			font-family: @secondaryfont;
-			font-size: 60px;
+			font-size: 105%;
 			justify-content: center;
 			flex-wrap: wrap;
 			align-content: center;
+			margin-left: 40%;
 			
 		}//a close
 		@media (max-width: 500px){
@@ -141,6 +148,7 @@ header{
 	h2{
 		color: @h2color;
 		font-family: @secondaryfont;
+		font-size: 2rem;
 	}//h2 close
 	p{
 		.new-class();
@@ -161,6 +169,7 @@ header{
 	h2{
 		color: @h2color;
 		font-family: @secondaryfont;
+		font-size: 2rem;
 	}//h2 close
 	p{
 		.new-class();
@@ -180,6 +189,7 @@ header{
 	h2{
 		color:@h2color;
 		font-family:@secondaryfont;
+		font-size:2rem;
 	}//h2 close
 	ul{
 		li{
@@ -201,6 +211,7 @@ header{
 	h2{
 		color:@h2color;
 		font-family:@secondaryfont;
+		font-size: 2rem;
 	}//h2 close
 	p{
 		.new-class();
@@ -219,6 +230,7 @@ header{
 	h2{
 		color:@h2color;
 		font-family:@secondaryfont;
+		font-size:2rem;
 	}//h2 close
 	p{
 		.new-class();
@@ -237,6 +249,7 @@ header{
 	h2{
 		color:@h2color;
 		font-family:@secondaryfont;
+		font-size: 2rem;
 	}//h2 close
 	ul{
 		li{

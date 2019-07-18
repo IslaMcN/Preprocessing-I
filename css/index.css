@@ -107,10 +107,6 @@ section {
 body {
   line-height: 1;
 }
-ol,
-ul {
-  list-style: none;
-}
 blockquote,
 q {
   quotes: none;
@@ -136,12 +132,16 @@ body {
 }
 body {
   background-color: #66CCFF;
+  margin: 9%;
+  padding: 7%;
 }
 h1 {
-  font-size: 150px;
+  font-size: 200%;
   font-family: 'Cousine', monospace;
   color: #007A4B;
   height: 25%;
+  display: flex;
+  justify-content: center;
 }
 hr {
   overflow: visible;
@@ -150,6 +150,7 @@ hr {
   border-color: black;
   border-width: 1px 0 0 0;
   border-radius: 20px;
+  width: 20%;
 }
 hr:before {
   display: block;
@@ -175,10 +176,11 @@ header nav a {
   text-decoration: none;
   color: #20603C;
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 60px;
+  font-size: 105%;
   justify-content: center;
   flex-wrap: wrap;
   align-content: center;
+  margin-left: 40%;
 }
 @media (max-width: 500px) {
   header nav {
@@ -196,11 +198,12 @@ header nav a {
 .intro h2 {
   color: #20603C;
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
 }
 .intro p {
   color: #00552A;
   font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 50%;
+  font-size: 1.5rem;
 }
 @media (max-width: 500px) {
   .intro {
@@ -218,11 +221,12 @@ header nav a {
 .experience h2 {
   color: #20603C;
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
 }
 .experience p {
   color: #00552A;
   font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 50%;
+  font-size: 1.5rem;
 }
 @media (max-width: 500px) {
   .experience {
@@ -240,11 +244,13 @@ header nav a {
 .skills h2 {
   color: #20603C;
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
 }
 .skills ul li {
   color: #336E7B;
   font-family: 'Space Mono', monospace;
-  font-size: 55%;
+  font-size: 1.5rem;
+  list-style-position: inside;
 }
 @media (max-width: 500px) {
   .skills ul li {
@@ -262,11 +268,12 @@ header nav a {
 .education h2 {
   color: #20603C;
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
 }
 .education p {
   color: #00552A;
   font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 50%;
+  font-size: 1.5rem;
 }
 @media (max-width: 500px) {
   .education {
@@ -284,11 +291,12 @@ header nav a {
 .referrals h2 {
   color: #20603C;
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
 }
 .referrals p {
   color: #00552A;
   font-family: 'Nanum Gothic Coding', monospace;
-  font-size: 50%;
+  font-size: 1.5rem;
 }
 @media (max-width: 500px) {
   .referrals {
@@ -306,11 +314,13 @@ header nav a {
 .contact h2 {
   color: #20603C;
   font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
 }
 .contact ul li {
   color: #336E7B;
   font-family: 'Space Mono', monospace;
-  font-size: 55%;
+  font-size: 1.5rem;
+  list-style-position: inside;
 }
 @media (max-width: 500px) {
   .contact ul li {
