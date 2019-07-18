@@ -32,9 +32,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
+
+
 blockquote, q {
 	quotes: none;
 }
@@ -57,3 +56,225 @@ html, body {
     height: 100%;
 }
 
+@maincolor: #2d3436;
+@h1color: #b2bec3;
+@mainfont: 'Cousine', monospace;
+@h2color: #fdcb6e;
+@secondaryfont: 'IBM Plex Mono', monospace;
+@mobile ~"(max-width:500px)";
+
+.new-class(){
+	color: #b2bec3;
+	font-family: 'Nanum Gothic Coding', monospace;
+	font-size: 1.5rem;
+ } //newclassclose
+.lists(){
+	color: #fdcb6e;
+	font-family: 'Space Mono', monospace;
+	font-size: 1.5rem;
+  	list-style-position: inside;
+}//lists close
+.other-class(){
+	display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}//otherclass close
+
+body{
+	background-color: @maincolor;
+	margin:9%;
+	padding:7%;
+}//body close
+h1{
+	font-size:200%;
+	font-family: @mainfont;
+	color: @h1color;
+	height:25%;
+	display: flex;
+	justify-content: center;
+
+}//h1 close
+hr  {
+    overflow: visible; 
+    height: 30px;
+    border-style: solid;
+    border-color: #fab1a0;
+    border-width: 1px 0 0 0;
+	border-radius: 20px;
+	width:20%;
+}//hr close
+hr:before { 
+	display: block;
+	content: "";
+	height: 30px;
+	margin-top: -31px;
+	border-style: solid;
+	border-color: #fab1a0;
+	border-width: 0 0 1px 0;
+	border-radius: 20px;
+}//hr before close
+header{
+	display:flex;
+	flex-direction: column;
+	margin: 2%;
+	nav{
+		justify-content: baseline;
+		margin: 22%;
+		margin-top: 5%;
+		a{
+			text-decoration: none;
+			color: @h2color;
+			font-family: @secondaryfont;
+			font-size: 105%;
+			justify-content: center;
+			flex-wrap: wrap;
+			align-content: center;
+			margin-left: 40%;
+			
+		}//a close
+		@media @moblie{
+			font-size: 85%;
+			color: rebeccapurple;
+			margin:5%;
+			width:100vw;
+		}//media close
+
+		}//nav close
+}//header close
+.intro{
+	display:flex;
+	flex-direction: column;
+	align-content: center;
+	h2{
+		color: @h2color;
+		font-family: @secondaryfont;
+		font-size: 2rem;
+	}//h2 close
+	p{
+		.new-class();
+	}//p close
+	@media @mobile {
+		font-size: 75%;
+		color: rebeccapurple;
+		margin:5%;
+		width:100vw;
+		
+	}//media close
+}//intro close
+
+.experience{
+	display:flex;
+	flex-direction:column;
+	align-content: center;
+	h2{
+		color: @h2color;
+		font-family: @secondaryfont;
+		font-size: 2rem;
+	}//h2 close
+	p{
+		.new-class();
+
+	}//p close
+	@media @mobile{
+		font-size: 75%;
+			color: rebeccapurple;
+			margin:5%;
+			width:100vw;
+	}//media close
+}//experience close
+.skills{
+	display:flex;
+	flex-direction: column;
+	align-content: center;
+	h2{
+		color:@h2color;
+		font-family:@secondaryfont;
+		font-size:2rem;
+	}//h2 close
+	ul{
+		li{
+			.lists();
+			@media @mobile{
+				font-size: 75%;
+				color: #7659B6;
+				margin:7%;
+				width:100vw;
+			}//media close
+		}//li close
+	}//ul close
+	
+}//skills close
+.education{
+	display:flex;
+	flex-direction:column;
+	align-content: center;
+	h2{
+		color:@h2color;
+		font-family:@secondaryfont;
+		font-size: 2rem;
+	}//h2 close
+	p{
+		.new-class();
+	}//p close
+	@media @mobile {
+		font-size: 75%;
+			color: rebeccapurple;
+			margin:5%;
+			width:100vw;
+		}//media close
+}//education close
+.referrals{
+	display: flex;
+	flex-direction: column;
+	align-content:center;
+	h2{
+		color:@h2color;
+		font-family:@secondaryfont;
+		font-size:2rem;
+	}//h2 close
+	p{
+		.new-class();
+	}//p close
+	@media @mobile {
+		font-size: 75%;
+		color: rebeccapurple;
+		margin:5%;
+		width:100vw;
+	}//media close
+}//referrals close
+.contact{
+	display:flex;
+	flex-direction: column;
+	align-content:center;
+	h2{
+		color:@h2color;
+		font-family:@secondaryfont;
+		font-size: 2rem;
+	}//h2 close
+	ul{
+		li{
+			.lists();
+			@media @mobile{
+				font-size: 75%;
+				color: #7659B6;
+				margin:7%;
+				width:100vw;
+		}//media close
+		}//li close
+	}//ul close
+	
+	
+}//contact close
+a{
+	text-decoration: none;
+	color: #fab1a0;
+	
+&:hover{
+	color:tint(#fab1a0, 20%);
+}
+}
+h3{
+	font-size:1.75rem;
+	color:#b2bec3;
+}

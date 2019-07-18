@@ -1,1 +1,343 @@
-/* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  background-color: #2d3436;
+  margin: 9%;
+  padding: 7%;
+}
+h1 {
+  font-size: 200%;
+  font-family: 'Cousine', monospace;
+  color: #b2bec3;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+}
+hr {
+  overflow: visible;
+  height: 30px;
+  border-style: solid;
+  border-color: #fab1a0;
+  border-width: 1px 0 0 0;
+  border-radius: 20px;
+  width: 20%;
+}
+hr:before {
+  display: block;
+  content: "";
+  height: 30px;
+  margin-top: -31px;
+  border-style: solid;
+  border-color: #fab1a0;
+  border-width: 0 0 1px 0;
+  border-radius: 20px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+header nav {
+  justify-content: baseline;
+  margin: 22%;
+  margin-top: 5%;
+}
+header nav a {
+  text-decoration: none;
+  color: #fdcb6e;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 105%;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-left: 40%;
+}
+@media (max-width: 500px) {
+  header nav {
+    font-size: 85%;
+    color: rebeccapurple;
+    margin: 5%;
+    width: 100vw;
+  }
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.intro h2 {
+  color: #fdcb6e;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+}
+.intro p {
+  color: #b2bec3;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .intro {
+    font-size: 75%;
+    color: rebeccapurple;
+    margin: 5%;
+    width: 100vw;
+  }
+}
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.experience h2 {
+  color: #fdcb6e;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+}
+.experience p {
+  color: #b2bec3;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .experience {
+    font-size: 75%;
+    color: rebeccapurple;
+    margin: 5%;
+    width: 100vw;
+  }
+}
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.skills h2 {
+  color: #fdcb6e;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+}
+.skills ul li {
+  color: #fdcb6e;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5rem;
+  list-style-position: inside;
+}
+@media (max-width: 500px) {
+  .skills ul li {
+    font-size: 75%;
+    color: #7659B6;
+    margin: 7%;
+    width: 100vw;
+  }
+}
+.education {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.education h2 {
+  color: #fdcb6e;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+}
+.education p {
+  color: #b2bec3;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .education {
+    font-size: 75%;
+    color: rebeccapurple;
+    margin: 5%;
+    width: 100vw;
+  }
+}
+.referrals {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.referrals h2 {
+  color: #fdcb6e;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+}
+.referrals p {
+  color: #b2bec3;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 1.5rem;
+}
+@media (max-width: 500px) {
+  .referrals {
+    font-size: 75%;
+    color: rebeccapurple;
+    margin: 5%;
+    width: 100vw;
+  }
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.contact h2 {
+  color: #fdcb6e;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 2rem;
+}
+.contact ul li {
+  color: #fdcb6e;
+  font-family: 'Space Mono', monospace;
+  font-size: 1.5rem;
+  list-style-position: inside;
+}
+@media (max-width: 500px) {
+  .contact ul li {
+    font-size: 75%;
+    color: #7659B6;
+    margin: 7%;
+    width: 100vw;
+  }
+}
+a {
+  text-decoration: none;
+  color: #fab1a0;
+}
+a:hover {
+  color: #fbc1b3;
+}
+h3 {
+  font-size: 1.75rem;
+  color: #b2bec3;
+}
