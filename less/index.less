@@ -61,6 +61,7 @@ html, body {
 @mainfont: 'Cousine', monospace;
 @h2color: #fdcb6e;
 @secondaryfont: 'IBM Plex Mono', monospace;
+@mobile ~"(max-width:500px)";
 
 .new-class(){
 	color: #b2bec3;
@@ -132,7 +133,7 @@ header{
 			margin-left: 40%;
 			
 		}//a close
-		@media (max-width: 500px){
+		@media @moblie{
 			font-size: 85%;
 			color: rebeccapurple;
 			margin:5%;
@@ -153,7 +154,7 @@ header{
 	p{
 		.new-class();
 	}//p close
-	@media (max-width: 500px) {
+	@media @mobile {
 		font-size: 75%;
 		color: rebeccapurple;
 		margin:5%;
@@ -175,7 +176,7 @@ header{
 		.new-class();
 
 	}//p close
-	@media (max-width: 500px){
+	@media @mobile{
 		font-size: 75%;
 			color: rebeccapurple;
 			margin:5%;
@@ -194,7 +195,7 @@ header{
 	ul{
 		li{
 			.lists();
-			@media (max-width:500px){
+			@media @mobile{
 				font-size: 75%;
 				color: #7659B6;
 				margin:7%;
@@ -216,7 +217,7 @@ header{
 	p{
 		.new-class();
 	}//p close
-	@media (max-width: 500px) {
+	@media @mobile {
 		font-size: 75%;
 			color: rebeccapurple;
 			margin:5%;
@@ -235,7 +236,7 @@ header{
 	p{
 		.new-class();
 	}//p close
-	@media (max-width: 500px) {
+	@media @mobile {
 		font-size: 75%;
 		color: rebeccapurple;
 		margin:5%;
@@ -254,7 +255,7 @@ header{
 	ul{
 		li{
 			.lists();
-			@media (max-width:500px){
+			@media @mobile{
 				font-size: 75%;
 				color: #7659B6;
 				margin:7%;
