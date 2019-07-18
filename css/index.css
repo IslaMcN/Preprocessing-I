@@ -131,14 +131,14 @@ body {
   height: 100%;
 }
 body {
-  background-color: #66CCFF;
+  background-color: #2d3436;
   margin: 9%;
   padding: 7%;
 }
 h1 {
   font-size: 200%;
   font-family: 'Cousine', monospace;
-  color: #007A4B;
+  color: #b2bec3;
   height: 25%;
   display: flex;
   justify-content: center;
@@ -147,7 +147,7 @@ hr {
   overflow: visible;
   height: 30px;
   border-style: solid;
-  border-color: black;
+  border-color: #fab1a0;
   border-width: 1px 0 0 0;
   border-radius: 20px;
   width: 20%;
@@ -158,7 +158,7 @@ hr:before {
   height: 30px;
   margin-top: -31px;
   border-style: solid;
-  border-color: black;
+  border-color: #fab1a0;
   border-width: 0 0 1px 0;
   border-radius: 20px;
 }
@@ -174,7 +174,7 @@ header nav {
 }
 header nav a {
   text-decoration: none;
-  color: #20603C;
+  color: #fdcb6e;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 105%;
   justify-content: center;
@@ -196,12 +196,12 @@ header nav a {
   align-content: center;
 }
 .intro h2 {
-  color: #20603C;
+  color: #fdcb6e;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 2rem;
 }
 .intro p {
-  color: #00552A;
+  color: #b2bec3;
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 1.5rem;
 }
@@ -219,12 +219,12 @@ header nav a {
   align-content: center;
 }
 .experience h2 {
-  color: #20603C;
+  color: #fdcb6e;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 2rem;
 }
 .experience p {
-  color: #00552A;
+  color: #b2bec3;
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 1.5rem;
 }
@@ -242,12 +242,12 @@ header nav a {
   align-content: center;
 }
 .skills h2 {
-  color: #20603C;
+  color: #fdcb6e;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 2rem;
 }
 .skills ul li {
-  color: #336E7B;
+  color: #fdcb6e;
   font-family: 'Space Mono', monospace;
   font-size: 1.5rem;
   list-style-position: inside;
@@ -266,12 +266,12 @@ header nav a {
   align-content: center;
 }
 .education h2 {
-  color: #20603C;
+  color: #fdcb6e;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 2rem;
 }
 .education p {
-  color: #00552A;
+  color: #b2bec3;
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 1.5rem;
 }
@@ -289,12 +289,12 @@ header nav a {
   align-content: center;
 }
 .referrals h2 {
-  color: #20603C;
+  color: #fdcb6e;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 2rem;
 }
 .referrals p {
-  color: #00552A;
+  color: #b2bec3;
   font-family: 'Nanum Gothic Coding', monospace;
   font-size: 1.5rem;
 }
@@ -312,12 +312,12 @@ header nav a {
   align-content: center;
 }
 .contact h2 {
-  color: #20603C;
+  color: #fdcb6e;
   font-family: 'IBM Plex Mono', monospace;
   font-size: 2rem;
 }
 .contact ul li {
-  color: #336E7B;
+  color: #fdcb6e;
   font-family: 'Space Mono', monospace;
   font-size: 1.5rem;
   list-style-position: inside;
@@ -329,4 +329,12 @@ header nav a {
     margin: 7%;
     width: 100vw;
   }
+}
+a {
+  text-decoration: none;
+  color: #fab1a0;
+}
+h3 {
+  font-size: 1.75rem;
+  color: #b2bec3;
 }
